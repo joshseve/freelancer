@@ -1,3 +1,132 @@
 /*
  * Estilos reutilizables
  */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*
+ * CONTENEDOR MAESTRO
+ */
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+/*
+ * Comienzan las clases
+ * Grid Style
+ */
+
+  [class*="col-"] {
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+  }
+
+  /*
+   * Modificando el tamaño de las columnas
+   */
+
+   .col-1 {
+     /*
+      * (1/12)100 FORMULA
+      */
+      width: 8.333%;
+   }
+
+   .col-2 {
+     /*
+      * (2/12)100 FORMULA
+      */
+      width: 16.666%;
+   }
+
+   .col-3 {
+     /*
+      * (3/12)100 FORMULA
+      */
+      width: 25%;
+   }
+
+   .col-4 {
+     /*
+      * (4/12)100 FORMULA
+      */
+      width: 33.333%;
+   }
+
+   .col-5 {
+     /*
+      * (5/12)100 FORMULA
+      */
+      width: 41.667%;
+   }
+
+   .col-6 {
+     /*
+      * (6/12)100 FORMULA
+      */
+      width: 50%;
+   }
+
+   .col-7 {
+     /*
+      * (7/12)100 FORMULA
+      */
+      width: 58.333%;
+   }
+
+   .col-8 {
+     /*
+      * (8/12)100 FORMULA
+      */
+      width: 66.667%;
+   }
+
+   .col-9 {
+     /*
+      * (9/12)100 FORMULA
+      */
+      width: 75%;
+   }
+
+   .col-10 {
+     /*
+      * (10/12)100 FORMULA
+      */
+      width: 83.333%;
+   }
+
+   .col-11 {
+     /*
+      * (11/12)100 FORMULA
+      */
+      width: 91.667%;
+   }
+
+   .col-12 {
+     /*
+      * (12/12)100 FORMULA
+      */
+      width: 100%;
+   }
